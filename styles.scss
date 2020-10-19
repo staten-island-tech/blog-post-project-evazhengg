@@ -1,0 +1,86 @@
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 62.5%;
+  font-family: "Josefin Sans", sans-serif;
+  background: #654ea3;  
+background: -webkit-linear-gradient(to right, #eaafc8, #654ea3);  
+background: linear-gradient(to right, #eaafc8, #654ea3); 
+}
+
+
+
+
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+
+ 
+.box {
+  color:white;
+  font-size: 100px;
+  text-align: center;
+  text-shadow:4vh 4vh 0 rgba(0,0,0,0.1);
+  padding:10vh;
+}
+
+
+.flexbox-item-1 { background:#FFC107;}
+.flexbox-item-2 { background:#FFECB3;}
+.flexbox-item-3 { background:#FFEB3B;}
+
+
+.flexbox-item {
+  color:white;
+  font-size: 20px;
+  text-align: center;
+  align-content:space-between ;
+  text-shadow:4px 4px 0 rgba(0,0,0,0.1);
+  border: 10px solid mistyrose
+}
+
+.flexbox-item-1 {
+  flex:1 1 400vh; 
+  margin: 1rem auto;
+  width: 50%
+
+}
+
+.flexbox-item-2 {
+  flex:1 1 400vh; 
+  margin: 1rem auto;
+  width: 50%
+
+}
+
+.flexbox-item-3{
+  flex:1 1 400vh; 
+  margin: 1rem auto; 
+  width: 50%
+
+}
+
+.link {
+  text-align: center;
+
+}
+
+.header{
+    font-size: 3vh;
+    text-align: center;
+    color: pink
+
+}
+
+
+
+
+
+
+
+
+
+
