@@ -6,9 +6,7 @@ body {
   box-sizing: border-box;
   font-size: 62.5%;
   font-family: "Josefin Sans", sans-serif;
-  background: #654ea3;
-  background: -webkit-gradient(linear, left top, right top, from(#eaafc8), to(#654ea3));
-  background: linear-gradient(to right, #eaafc8, #654ea3);
+  background-color: #C9DBFC;
 }
 
 * {
@@ -16,41 +14,31 @@ body {
   box-sizing: border-box;
 }
 
-.box {
+.container {
   color: white;
-  font-size: 100px;
-  text-align: center;
-  text-shadow: 4vh 4vh 0 rgba(0, 0, 0, 0.1);
-  padding: 10vh;
-}
-
-.flexbox-item {
-  color: white;
-  font-size: 20px;
+  font-size: 1.5vh;
   text-align: center;
   -ms-flex-line-pack: justify;
   align-content: space-between;
-  text-shadow: 4px 4px 0 rgba(0, 0, 0, 0.1);
   -webkit-box-flex: 1;
       -ms-flex: 1 1 400vh;
           flex: 1 1 400vh;
   margin: 1rem auto;
-  width: 50%;
+  height: 60rem;
+  width: 50vh;
+  font: "Nunito", sans-serif;
 }
 
-.flexbox-item-1 {
-  border: 10px solid mistyrose;
-  background: #FFC107;
+.box-1 {
+  background-color: #CCC4F5;
 }
 
-.flexbox-item-2 {
-  border: 10px solid pink;
-  background: #FFECB3;
+.box-2 {
+  background-color: #FACFD9;
 }
 
-.flexbox-item-3 {
-  border: 10px solid orange;
-  background: #FFEB3B;
+.box-3 {
+  background-color: #E0BBE4;
 }
 
 .link {
@@ -60,19 +48,32 @@ body {
 .header {
   font-size: 3vh;
   text-align: center;
-  color: #FF6347;
   display: block;
+  color: #800080;
 }
 
 .header-primary-main {
   text-align: center;
-  color: #FF8C00;
+  color: header-color;
   font-size: 10rem;
   text-transform: uppercase;
   letter-spacing: 2rem;
 }
 
-.roses-img {
-  height: 5px;
+.header-primary-sub {
+  color: #FF00FF;
+}
+
+.box-title {
+  font: 400 5rem "Nunito", sans-serif;
+  margin: 0rem;
+  color: #800080;
+}
+
+.box-text {
+  font: 400 2rem "Bodoni Moda", serif;
+  margin: 0rem;
+  padding: 0rem 2rem;
+  color: #212121;
 }
 /*# sourceMappingURL=styles.css.map */

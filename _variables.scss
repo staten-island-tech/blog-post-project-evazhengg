@@ -1,0 +1,21 @@
+
+
+$colors: (   
+    dark-primary-color:  #FACFD9,
+    default-primary-color:#CCC4F5,
+    light-primary-color:#C9DBFC,
+    other-primary-color: #E0BBE4,
+    text-primary-color: #fff,
+    header-color: #800080,
+    accent-color: #FF00FF,
+    primary-text-color: #212121,
+);
+
+
+
+@function color($color-name) {
+    @return map-get($colors, $color-name);
+  }
+  
+  $mainFont: 'Nunito', sans-serif;
+$secondaryFont: 'Bodoni Moda', serif;
